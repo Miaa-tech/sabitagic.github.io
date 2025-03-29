@@ -1,20 +1,30 @@
 ---
 layout: default
+title: Sabit Agic's Portfolio
 ---
 
-<div class="home">
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Sabit Agic - Teacher, Puppeteer, Songwriter, Composer, and Guitarist">
+  <meta name="author" content="Sabit Agic">
+  <title>Sabit Agic's Portfolio</title>
+  <link rel="stylesheet" href="{{ site.baseurl }}/style.css">
+</head>
+<body>
+  <header>
+    <h1>Sabit Agic's Portfolio</h1>
+    <nav>
+      <ul>
+        <li><a href="#about">About Me</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
 
-  <h1>Posts</h1>
-
-  <ul class="posts">
-    {% for post in site.posts %}
-      <li>
-        <span class="post-date">{{ post.date | date: "%b %-d, %Y" }}</span>
-        <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-      </li>
-    {% endfor %}
-  </ul>
-
-  <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
-
-</div>
+  <section id="about">
+    <h2>About Me</h2>
+    <p>I am Sabit Agic, a passionate teacher, puppeteer, songwriter, composer, and guitarist. I have a deep love for children's education and entertainment. Through my performances and
