@@ -1,5 +1,5 @@
 plugins:
-  - jekyll-feed
+  - agency-jekyll-theme
 
 title: "Sabit Agić – Lutkar i Kompozitor"
 description: "Dobrodošli na moj portfolio! Ovdje možete pronaći moje pjesme, lutkarske predstave i muzičke projekte."
