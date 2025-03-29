@@ -1,65 +1,38 @@
-url: https://y7kim.github.io
-baseurl: /agency-jekyll-theme/
+title: "Sabit Agić – Lutkar i Kompozitor"
+description: "Dobrodošli na moj portfolio! Ovdje možete pronaći moje pjesme, lutkarske predstave i muzičke projekte."
+baseurl: ""
+url: "https://sabitagic.github.io"
 
-# Site settings
-title: Awesome Title
-email: your-email@domain.com
-description: "Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description."
-
-
-# Team names, titles and social links
 people:
-- name: Kay Garland
-  pic: 1
-  position: Lead Designer
-  social:
-    - title: twitter
-      url: #
-    - title: facebook
-      url: #
-    - title: stack-overflow
-      url: #
+  - name: Sabit Agić
+    pic: /assets/images/sabit.webp  # Make sure to place the image in the correct directory
+    position: Učitelj
+    social:
+      - title: facebook
+        url: https://www.facebook.com/lutkarstvo.sabit.agic/?locale=hr_HR
+      - title: youtube
+        url: https://www.youtube.com/channel/UCxpaTNTPVRPNZ20gqmr-VvQ
 
-- name: Larry Parker
-  pic: 2
-  position: Lead Marketer
-  social:
-    - title: twitter
-      url: #
-    - title: facebook
-      url: #
-    - title: linkedin
-      url: #
+press:
+  - title: "Lutke kao alat za očuvanje zdravlja djece tokom nastave"
+    url: "https://www.ucitelj21.com/2016/11/i-ucitelj-i-lutkar-sabit-agic.html"
+    description: "Članak govori o zanimljivom pristupu nastavi u kojem se lutke koriste kako bi djeca aktivno učestvovala i učila kroz igru. Kroz predstave poput 'Lutke nam pričaju', djeca se na zabavan način upoznaju s važnim temama, poput pravilnog sjedenja, dok nastava postaje interaktivna i motivirajuća. Ovaj način rada izaziva pozitivne reakcije i kod djece i roditelja."
+  - title: "Kroz igru s lutkama do motivacije za učenje"
+    url: "https://www.mreza-mira.net/vijesti/obrazovanje/ucitelj-lutkar/"
+    description: "Sabit Agić, učitelj i lutkar, koristi lutke kako bi nastavu učinio zabavnijom i interaktivnijom. Kroz igru, djeca ne samo da uče važne životne lekcije, već se i opuštaju, bez straha od greške. Agić stvara atmosferu u kojoj djeca mogu biti kreativna i slobodna, ističući kako igra igra ključnu ulogu u učenju i socijalizaciji. Kroz humor i igru, on podstiče djecu na razmišljanje i aktivno učešće u nastavi."
+  - title: "Upoznajte dr. Hećima i gospodina Spužvu: Učitelj Sabit Agić u radu s učenicima koristi lutke"
+    url: "https://www.klix.ba/vijesti/upoznajte-dr-hecima-i-gospodina-spuzvu-ucitelj-sabit-agic-u-radu-s-ucenicima-koristi-lutke/150401062#google_vignette"
+    description: "Učitelj Sabit Agić koristi lutke kao alat u nastavi kako bi djeci učinio obrazovanje zabavnijim i učinkovitijim. Kroz likove poput dr. Hećima, lutke pomažu u održavanju pažnje učenika i podučavaju ih važnim temama, poput pravilnog držanja tijela i zdravlja. Agić koristi lutke u svim predmetima, a istovremeno potiče učenike da razvijaju vlastite ideje i kreativnost."
 
-- name: Diana Petersen
-  pic: 3
-  position: Lead Developer
-  social:
-    - title: twitter
-      url: #
-    - title: facebook
-      url: #
-    - title: google-plus
-      url: #
-
-# Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
 social:
-  - title: twitter
-    url: http://twitter.com/jekyllrb
   - title: facebook
-    url:
-  - title: stack-overflow
-    url: http://stackoverflow.com/questions/tagged/jekyll
-  - title: bitbucket 
-    url: http://bitbucket.org/jekyll
-  - title: github
-    url: http://github.com/jekyll
+    url: https://www.facebook.com/lutkarstvo.sabit.agic/?locale=hr_HR
+  - title: youtube
+    url: https://www.youtube.com/channel/UCxpaTNTPVRPNZ20gqmr-VvQ
 
-# Postal address (add as many lines as necessary)
 address:
-  - line: 3481 Melrose Place
-  - line: Beverly Hills, CA 90210
+  - line: 71000 Sarajevo
+  - line: Bosna i Hercegovina
 
-# Build settings
 markdown: kramdown
 permalink: pretty
