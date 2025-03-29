@@ -5,7 +5,7 @@ url: "https://sabitagic.github.io"
 
 people:
   - name: Sabit Agić
-    pic: /assets/images/sabit.webp  # Make sure to place the image in the correct directory
+    pic: /img/about/sabit.webp
     position: Učitelj
     social:
       - title: facebook
