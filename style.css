@@ -1,3 +1,31 @@
----
-layout: style
----
+/* General Body Styles */
+body {
+  background-color: #F4F4F4; /* Light gray background for a clean and modern look */
+  color: #333333; /* Dark gray text for readability */
+  font-family: 'Arial', sans-serif; /* Clean, modern font */
+  margin: 0;
+  padding: 0;
+}
+
+/* Header - Professional but Fun */
+header {
+  background-color: #009688; /* Teal - represents creativity and energy */
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+
+header a {
+  color: white; /* White text for links in the header */
+  text-decoration: none;
+  padding: 10px;
+}
+
+header a:hover {
+  color: #FF4081; /* Fun, vibrant pink for hover effect */
+}
+
+/* Buttons */
+.button, .btn {
+  background-color: #1E88E5; /* Trustworthy blue for buttons */
+  color:
