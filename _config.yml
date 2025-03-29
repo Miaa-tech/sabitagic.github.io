@@ -3,7 +3,8 @@ description: "Dobrodošli na moj portfolio! Ovdje možete pronaći moje pjesme, 
 baseurl: ""
 url: "https://sabitagic.github.io"
 
-theme: agency-jekyll-theme
+remote_theme: y7kim/agency-jekyll-theme
+
 
 people:
   - name: Sabit Agić
